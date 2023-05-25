@@ -16,7 +16,7 @@ trait JsonFilePathResolver
         $basePath = base_path();
 
         return $subDir === 'enso'
-            ? "{$basePath}/vendor/laravel-enso/localisation/lang/{$path}"
+            ? "{$basePath}/vendor/laravel-liberu/localisation/lang/{$path}"
             : App::langPath($path);
     }
 
