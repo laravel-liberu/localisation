@@ -25,7 +25,7 @@ class Language
     public function edit(Model $language)
     {
         return $this->form
-            ->value('flag_sufix', substr($language->flag, -2))
+            ->value('flag_sufix', substr((string) $language->flag, -2))
             ->edit($language);
     }
 

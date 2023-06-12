@@ -11,7 +11,7 @@ class Destroyer
 {
     use JsonFilePathResolver;
 
-    public function __construct(private Language $language)
+    public function __construct(private readonly Language $language)
     {
     }
 

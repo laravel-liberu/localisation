@@ -10,13 +10,8 @@ class Reader
 {
     use JsonFilePathResolver;
 
-    private Language $language;
-    private string $subDirectory;
-
-    public function __construct(Language $language, ?string $subDirectory = null)
+    public function __construct(private readonly Language $language, private readonly ?string $subDirectory = null)
     {
-        $this->language = $language;
-        $this->subDirectory = $subDirectory;
     }
 
     public function get(): string

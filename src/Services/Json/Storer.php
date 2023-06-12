@@ -7,11 +7,8 @@ use LaravelEnso\Localisation\Models\Language;
 
 class Storer extends Handler
 {
-    private string $locale;
-
-    public function __construct(string $locale)
+    public function __construct(private readonly string $locale)
     {
-        $this->locale = $locale;
     }
 
     public function create()

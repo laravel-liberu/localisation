@@ -8,15 +8,11 @@ use LaravelEnso\Localisation\Models\Language;
 
 class Updater extends Handler
 {
-    private ?string $locale;
-    private array $langArray;
-    private ?string $subDir;
+    private readonly ?string $locale;
 
-    public function __construct(Language $language, array $langArray, ?string $subDir = null)
+    public function __construct(Language $language, private readonly array $langArray, private readonly ?string $subDir = null)
     {
-        $this->langArray = $langArray;
         $this->locale = $language->name;
-        $this->subDir = $subDir;
     }
 
     public function run()

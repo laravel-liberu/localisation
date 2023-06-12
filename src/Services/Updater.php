@@ -13,9 +13,9 @@ class Updater
     use JsonFilePathResolver;
 
     public function __construct(
-        private Language $language,
-        private array $request,
-        private string $flagSuffix
+        private readonly Language $language,
+        private readonly array $request,
+        private readonly string $flagSuffix
     ) {
     }
 

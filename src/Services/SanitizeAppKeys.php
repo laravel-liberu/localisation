@@ -10,8 +10,8 @@ class SanitizeAppKeys
 {
     use JsonFilePathResolver;
 
-    private Collection $app;
-    private Collection $core;
+    private readonly Collection $app;
+    private readonly Collection $core;
 
     public function __construct(array $app, array $core)
     {

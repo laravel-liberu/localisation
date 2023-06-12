@@ -8,8 +8,8 @@ use Illuminate\Support\Facades\File;
 
 class Storer
 {
-    private $newLocaleFolder;
-    private $fallbackLocaleFolder;
+    private readonly string $newLocaleFolder;
+    private readonly string $fallbackLocaleFolder;
 
     public function __construct(string $locale)
     {

@@ -10,8 +10,8 @@ use LaravelEnso\Localisation\Services\Legacy\Storer as LegacyStorer;
 class Storer
 {
     public function __construct(
-        private array $request,
-        private ?string $flagSuffix
+        private readonly array $request,
+        private readonly ?string $flagSuffix
     ) {
     }
 
