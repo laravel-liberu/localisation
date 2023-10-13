@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Policies;
+namespace LaravelLiberu\Localisation\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
-use LaravelEnso\Localisation\Models\Language as Model;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Localisation\Models\Language as Model;
+use LaravelLiberu\Users\Models\User;
 
 class Language
 {

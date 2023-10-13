@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Tables\Builders;
+namespace LaravelLiberu\Localisation\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Localisation\Models\Language as Model;
-use LaravelEnso\Tables\Contracts\Table;
+use LaravelLiberu\Localisation\Models\Language as Model;
+use LaravelLiberu\Tables\Contracts\Table;
 
 class Language implements Table
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Controllers\Language;
+namespace LaravelLiberu\Localisation\Http\Controllers\Language;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
-use LaravelEnso\Localisation\Models\Language;
-use LaravelEnso\Localisation\Services\Destroyer;
+use LaravelLiberu\Localisation\Models\Language;
+use LaravelLiberu\Localisation\Services\Destroyer;
 
 class Destroy extends Controller
 {

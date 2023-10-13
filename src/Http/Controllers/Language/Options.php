@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Controllers\Language;
+namespace LaravelLiberu\Localisation\Http\Controllers\Language;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Localisation\Models\Language;
-use LaravelEnso\Select\Traits\OptionsBuilder;
+use LaravelLiberu\Localisation\Models\Language;
+use LaravelLiberu\Select\Traits\OptionsBuilder;
 
 class Options extends Controller
 {

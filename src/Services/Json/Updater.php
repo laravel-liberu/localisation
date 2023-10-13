@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Services\Json;
+namespace LaravelLiberu\Localisation\Services\Json;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\JsonReader;
-use LaravelEnso\Localisation\Models\Language;
+use LaravelLiberu\Helpers\Services\JsonReader;
+use LaravelLiberu\Localisation\Models\Language;
 
 class Updater extends Handler
 {

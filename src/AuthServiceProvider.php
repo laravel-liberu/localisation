@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation;
+namespace LaravelLiberu\Localisation;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use LaravelEnso\Localisation\Models\Language;
-use LaravelEnso\Localisation\Policies\Language as Policy;
+use LaravelLiberu\Localisation\Models\Language;
+use LaravelLiberu\Localisation\Policies\Language as Policy;
 
 class AuthServiceProvider extends ServiceProvider
 {

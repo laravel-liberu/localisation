@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Requests;
+namespace LaravelLiberu\Localisation\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use LaravelEnso\Helpers\Traits\FiltersRequest;
+use LaravelLiberu\Helpers\Traits\FiltersRequest;
 
 class ValidateLanguage extends FormRequest
 {

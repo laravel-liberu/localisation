@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Localisation\Services\Json;
+namespace LaravelLiberu\Localisation\Services\Json;
 
 class Merger extends Handler
 {

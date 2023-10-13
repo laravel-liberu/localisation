@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Controllers\Language;
+namespace LaravelLiberu\Localisation\Http\Controllers\Language;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Localisation\Forms\Builders\Language;
+use LaravelLiberu\Localisation\Forms\Builders\Language;
 
 class Create extends Controller
 {

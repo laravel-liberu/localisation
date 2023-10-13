@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Localisation\Services\Legacy;
+namespace LaravelLiberu\Localisation\Services\Legacy;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;

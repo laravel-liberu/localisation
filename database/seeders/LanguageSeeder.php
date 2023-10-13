@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Database\Seeders;
+namespace LaravelLiberu\Localisation\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Collection;
-use LaravelEnso\Localisation\Models\Language;
+use LaravelLiberu\Localisation\Models\Language;
 
 class LanguageSeeder extends Seeder
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Localisation\Models;
+namespace LaravelLiberu\Localisation\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Helpers\Contracts\Activatable;
-use LaravelEnso\Helpers\Traits\ActiveState;
-use LaravelEnso\Tables\Traits\TableCache;
+use LaravelLiberu\Helpers\Contracts\Activatable;
+use LaravelLiberu\Helpers\Traits\ActiveState;
+use LaravelLiberu\Tables\Traits\TableCache;
 
 class Language extends Model implements Activatable
 {

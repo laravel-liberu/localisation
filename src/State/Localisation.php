@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Localisation\State;
+namespace LaravelLiberu\Localisation\State;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
-use LaravelEnso\Core\Contracts\ProvidesState;
-use LaravelEnso\Helpers\Services\JsonReader;
-use LaravelEnso\Localisation\Models\Language;
+use LaravelLiberu\Core\Contracts\ProvidesState;
+use LaravelLiberu\Helpers\Services\JsonReader;
+use LaravelLiberu\Localisation\Models\Language;
 
 class Localisation implements ProvidesState
 {

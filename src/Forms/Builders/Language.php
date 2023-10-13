@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Localisation\Forms\Builders;
+namespace LaravelLiberu\Localisation\Forms\Builders;
 
-use LaravelEnso\Forms\Services\Form;
-use LaravelEnso\Localisation\Models\Language as Model;
+use LaravelLiberu\Forms\Services\Form;
+use LaravelLiberu\Localisation\Models\Language as Model;
 
 class Language
 {

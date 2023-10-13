@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Controllers\Json;
+namespace LaravelLiberu\Localisation\Http\Controllers\Json;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Localisation\Http\Requests\ValidateKey;
-use LaravelEnso\Localisation\Models\Language;
-use LaravelEnso\Localisation\Services\Json\Updater;
+use LaravelLiberu\Localisation\Http\Requests\ValidateKey;
+use LaravelLiberu\Localisation\Models\Language;
+use LaravelLiberu\Localisation\Services\Json\Updater;
 
 class AddKey
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Localisation\Exceptions;
+namespace LaravelLiberu\Localisation\Exceptions;
 
-use LaravelEnso\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
 
 class Localisation extends EnsoException
 {

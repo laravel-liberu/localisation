@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Localisation\Http\Controllers\Json\AddKey;
-use LaravelEnso\Localisation\Http\Controllers\Json\Edit;
-use LaravelEnso\Localisation\Http\Controllers\Json\Index;
-use LaravelEnso\Localisation\Http\Controllers\Json\Merge;
-use LaravelEnso\Localisation\Http\Controllers\Json\Update;
+use LaravelLiberu\Localisation\Http\Controllers\Json\AddKey;
+use LaravelLiberu\Localisation\Http\Controllers\Json\Edit;
+use LaravelLiberu\Localisation\Http\Controllers\Json\Index;
+use LaravelLiberu\Localisation\Http\Controllers\Json\Merge;
+use LaravelLiberu\Localisation\Http\Controllers\Json\Update;
 
 Route::get('editTexts', Index::class)->name('editTexts');
 Route::get('getLangFile/{language}/{subDir}', Edit::class)->name('getLangFile');

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Requests;
+namespace LaravelLiberu\Localisation\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

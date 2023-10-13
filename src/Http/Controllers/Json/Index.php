@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Controllers\Json;
+namespace LaravelLiberu\Localisation\Http\Controllers\Json;
 
-use LaravelEnso\Localisation\Models\Language;
+use LaravelLiberu\Localisation\Models\Language;
 
 class Index
 {

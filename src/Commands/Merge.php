@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Commands;
+namespace LaravelLiberu\Localisation\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Localisation\Services\Json\Merger;
+use LaravelLiberu\Localisation\Services\Json\Merger;
 
 class Merge extends Command
 {

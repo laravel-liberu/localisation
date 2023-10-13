@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Controllers\Language;
+namespace LaravelLiberu\Localisation\Http\Controllers\Language;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Localisation\Http\Requests\ValidateLanguage;
-use LaravelEnso\Localisation\Services\Storer;
+use LaravelLiberu\Localisation\Http\Requests\ValidateLanguage;
+use LaravelLiberu\Localisation\Services\Storer;
 
 class Store extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Controllers\Json;
+namespace LaravelLiberu\Localisation\Http\Controllers\Json;
 
 use Illuminate\Http\Request;
-use LaravelEnso\Localisation\Models\Language;
-use LaravelEnso\Localisation\Services\Json\Updater;
+use LaravelLiberu\Localisation\Models\Language;
+use LaravelLiberu\Localisation\Services\Json\Updater;
 
 class Update
 {

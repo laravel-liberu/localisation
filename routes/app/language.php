@@ -1,15 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Localisation\Http\Controllers\Language\Create;
-use LaravelEnso\Localisation\Http\Controllers\Language\Destroy;
-use LaravelEnso\Localisation\Http\Controllers\Language\Edit;
-use LaravelEnso\Localisation\Http\Controllers\Language\ExportExcel;
-use LaravelEnso\Localisation\Http\Controllers\Language\InitTable;
-use LaravelEnso\Localisation\Http\Controllers\Language\Options;
-use LaravelEnso\Localisation\Http\Controllers\Language\Store;
-use LaravelEnso\Localisation\Http\Controllers\Language\TableData;
-use LaravelEnso\Localisation\Http\Controllers\Language\Update;
+use LaravelLiberu\Localisation\Http\Controllers\Language\Create;
+use LaravelLiberu\Localisation\Http\Controllers\Language\Destroy;
+use LaravelLiberu\Localisation\Http\Controllers\Language\Edit;
+use LaravelLiberu\Localisation\Http\Controllers\Language\ExportExcel;
+use LaravelLiberu\Localisation\Http\Controllers\Language\InitTable;
+use LaravelLiberu\Localisation\Http\Controllers\Language\Options;
+use LaravelLiberu\Localisation\Http\Controllers\Language\Store;
+use LaravelLiberu\Localisation\Http\Controllers\Language\TableData;
+use LaravelLiberu\Localisation\Http\Controllers\Language\Update;
 
 Route::get('create', Create::class)->name('create');
 Route::post('', Store::class)->name('store');

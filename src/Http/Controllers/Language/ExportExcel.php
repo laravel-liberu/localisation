@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Controllers\Language;
+namespace LaravelLiberu\Localisation\Http\Controllers\Language;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Localisation\Tables\Builders\Language;
-use LaravelEnso\Tables\Traits\Excel;
+use LaravelLiberu\Localisation\Tables\Builders\Language;
+use LaravelLiberu\Tables\Traits\Excel;
 
 class ExportExcel extends Controller
 {

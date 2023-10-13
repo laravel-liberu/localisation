@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Services;
+namespace LaravelLiberu\Localisation\Services;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Localisation\Services\Traits\JsonFilePathResolver;
+use LaravelLiberu\Localisation\Services\Traits\JsonFilePathResolver;
 
 class SanitizeAppKeys
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Localisation\Services\Traits;
+namespace LaravelLiberu\Localisation\Services\Traits;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;

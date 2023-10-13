@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Localisation\Database\Factories;
+namespace LaravelLiberu\Localisation\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Localisation\Models\Language;
+use LaravelLiberu\Localisation\Models\Language;
 
 class LanguageFactory extends Factory
 {

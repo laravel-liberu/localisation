@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Localisation\Http\Middleware;
+namespace LaravelLiberu\Localisation\Http\Middleware;
 
 use Carbon\Carbon;
 use Closure;

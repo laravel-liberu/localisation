@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Localisation\Services;
+namespace LaravelLiberu\Localisation\Services;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Localisation\Models\Language;
-use LaravelEnso\Localisation\Services\Traits\JsonFilePathResolver;
+use LaravelLiberu\Localisation\Models\Language;
+use LaravelLiberu\Localisation\Services\Traits\JsonFilePathResolver;
 
 class Updater
 {

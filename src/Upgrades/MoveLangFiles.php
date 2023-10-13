@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Localisation\Upgrades;
+namespace LaravelLiberu\Localisation\Upgrades;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Upgrade\Contracts\MigratesData;
+use LaravelLiberu\Upgrade\Contracts\MigratesData;
 
 class MoveLangFiles implements MigratesData
 {

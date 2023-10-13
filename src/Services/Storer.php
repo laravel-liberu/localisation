@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Localisation\Services;
+namespace LaravelLiberu\Localisation\Services;
 
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Localisation\Models\Language;
-use LaravelEnso\Localisation\Services\Json\Storer as JsonStorer;
-use LaravelEnso\Localisation\Services\Legacy\Storer as LegacyStorer;
+use LaravelLiberu\Localisation\Models\Language;
+use LaravelLiberu\Localisation\Services\Json\Storer as JsonStorer;
+use LaravelLiberu\Localisation\Services\Legacy\Storer as LegacyStorer;
 
 class Storer
 {

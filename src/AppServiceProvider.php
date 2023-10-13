@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Localisation;
+namespace LaravelLiberu\Localisation;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Localisation\Commands\Merge;
-use LaravelEnso\Localisation\Http\Middleware\SetLanguage;
+use LaravelLiberu\Localisation\Commands\Merge;
+use LaravelLiberu\Localisation\Http\Middleware\SetLanguage;
 
 class AppServiceProvider extends ServiceProvider
 {

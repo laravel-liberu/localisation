@@ -2,14 +2,14 @@
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\App;
-use LaravelEnso\Core\Models\Preference;
-use LaravelEnso\Core\Services\DefaultPreferences;
-use LaravelEnso\Forms\TestTraits\CreateForm;
-use LaravelEnso\Forms\TestTraits\DestroyForm;
-use LaravelEnso\Forms\TestTraits\EditForm;
-use LaravelEnso\Localisation\Models\Language;
-use LaravelEnso\Tables\Traits\Tests\Datatable;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Core\Models\Preference;
+use LaravelLiberu\Core\Services\DefaultPreferences;
+use LaravelLiberu\Forms\TestTraits\CreateForm;
+use LaravelLiberu\Forms\TestTraits\DestroyForm;
+use LaravelLiberu\Forms\TestTraits\EditForm;
+use LaravelLiberu\Localisation\Models\Language;
+use LaravelLiberu\Tables\Traits\Tests\Datatable;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class LocalisationTest extends TestCase
