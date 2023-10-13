@@ -47,8 +47,8 @@ class Updater
     public function updateEnsoJson($oldName, $newName): void
     {
         File::move(
-            $this->jsonFileName($oldName, 'enso'),
-            $this->jsonFileName($newName, 'enso')
+            $this->jsonFileName($oldName, 'liberu'),
+            $this->jsonFileName($newName, 'liberu')
         );
     }
 

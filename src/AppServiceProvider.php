@@ -34,21 +34,21 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../database/factories' => database_path('factories'),
-        ], ['localisation-factory', 'enso-factories']);
+        ], ['localisation-factory', 'liberu-factories']);
 
         $this->publishes([
             __DIR__.'/../database/seeders' => database_path('seeders'),
-        ], ['localisation-seeder', 'enso-seeders']);
+        ], ['localisation-seeder', 'liberu-seeders']);
 
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['localisation-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['localisation-config', 'liberu-config']);
 
         $this->publishes(
             Collection::wrap($this->langs)->mapWithKeys(fn ($key) => [
                 __DIR__.'/../lang/'.$key => App::langPath($key),
             ])->toArray(),
-            'enso-localisation'
+            'liberu-localisation'
         );
 
         return $this;

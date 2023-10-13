@@ -14,10 +14,10 @@ class Storer extends Handler
     public function create()
     {
         $core = $this->newTranslations(
-            $this->existingTranslations('enso')
+            $this->existingTranslations('liberu')
         );
 
-        $this->savePartial($this->locale, $core->all(), 'enso');
+        $this->savePartial($this->locale, $core->all(), 'liberu');
 
         $app = $this->newTranslations(
             $this->existingTranslations('app')

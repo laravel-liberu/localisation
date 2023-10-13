@@ -5,14 +5,14 @@
         "laravel-liberu",
         "localisation"
     ],
-    "homepage": "https://github.com/laravel-liberu/localisation",
+urtis/projects/backend/laravel-liberu/pdf/composer.json
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-liberu.com",
+urtis/projects/backend/laravel-liberu/pdf/composer.json
             "role": "Developer"
         }
     ],

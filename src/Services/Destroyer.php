@@ -19,7 +19,7 @@ class Destroyer
     {
         $this->language->delete();
         File::deleteDirectory(App::langPath($this->language->name));
-        File::delete($this->jsonFileName($this->language->name, 'enso'));
+        File::delete($this->jsonFileName($this->language->name, 'liberu'));
         File::delete($this->jsonFileName($this->language->name, 'app'));
         File::delete($this->jsonFileName($this->language->name));
     }

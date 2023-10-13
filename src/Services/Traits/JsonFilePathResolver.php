@@ -15,14 +15,14 @@ trait JsonFilePathResolver
 
         $basePath = base_path();
 
-        return $subDir === 'enso'
+        return $subDir === 'liberu'
             ? "{$basePath}/vendor/laravel-liberu/localisation/lang/{$path}"
             : App::langPath($path);
     }
 
     protected function coreJsonFileName($locale): string
     {
-        return $this->jsonFileName($locale, 'enso');
+        return $this->jsonFileName($locale, 'liberu');
     }
 
     protected function appJsonFileName($locale): string
@@ -32,6 +32,6 @@ trait JsonFilePathResolver
 
     protected function updateDir(): string
     {
-        return Config::get('enso.localisation.core') ? 'enso' : 'app';
+        return Config::get('liberu.localisation.core') ? 'liberu' : 'app';
     }
 }

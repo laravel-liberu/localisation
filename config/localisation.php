@@ -7,7 +7,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | If set to true, the missing keys will be added to the core files,
-    | lang/enso/*.json, otherwise lang/app/*.json
+    | lang/liberu/*.json, otherwise lang/app/*.json
     */
 
     'core' => false,

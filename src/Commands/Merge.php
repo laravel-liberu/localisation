@@ -8,7 +8,7 @@ use LaravelLiberu\Localisation\Services\Json\Merger;
 
 class Merge extends Command
 {
-    protected $signature = 'enso:localisation:merge {--locale=}';
+    protected $signature = 'liberu:localisation:merge {--locale=}';
 
     protected $description = 'Merges the core language files with the app language files';
 

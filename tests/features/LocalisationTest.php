@@ -100,7 +100,7 @@ class LocalisationTest extends TestCase
         $this->cleanUp($language);
 
         File::delete(
-            base_path('vendor/laravel-liberu/localisation/lang/enso/'.$language->name.'.json')
+            base_path('vendor/laravel-liberu/localisation/lang/liberu/'.$language->name.'.json')
         );
     }
 
@@ -200,7 +200,7 @@ class LocalisationTest extends TestCase
         );
 
         File::delete(
-            App::langPath('enso'.DIRECTORY_SEPARATOR.$language->name.'.json')
+            App::langPath('liberu'.DIRECTORY_SEPARATOR.$language->name.'.json')
         );
 
         File::deleteDirectory(
