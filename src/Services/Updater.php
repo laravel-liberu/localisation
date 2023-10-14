@@ -44,7 +44,7 @@ class Updater
         );
     }
 
-    public function updateEnsoJson($oldName, $newName): void
+    public function updateLiberuJson($oldName, $newName): void
     {
         File::move(
             $this->jsonFileName($oldName, 'liberu'),
@@ -60,7 +60,7 @@ class Updater
 
         $this->updateJson($oldName, $newName);
         $this->updateAppJson($oldName, $newName);
-        $this->updateEnsoJson($oldName, $newName);
+        $this->updateLiberuJson($oldName, $newName);
         $this->updateLegacyFolder($oldName, $newName);
     }
 

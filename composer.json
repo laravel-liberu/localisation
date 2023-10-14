@@ -1,6 +1,6 @@
 {
     "name": "laravel-liberu/localisation",
-    "description": "Localisation management dependency for Laravel Enso",
+    "description": "Localisation management dependency for Laravel Liberu",
     "keywords": [
         "laravel-liberu",
         "localisation"

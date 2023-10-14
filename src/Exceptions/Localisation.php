@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Localisation\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Localisation extends EnsoException
+class Localisation extends LiberuException
 {
     public static function legacyFolderExists($locale, $folder)
     {
